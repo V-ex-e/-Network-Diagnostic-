@@ -1,0 +1,17 @@
+{
+  "name": "network-diagnostic-tool",
+  "version": "1.0.0",
+  "description": "A simple command-line network diagnostic tool using TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2",
+    "@types/node": "^16.11.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
